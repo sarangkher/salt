@@ -1,5 +1,0 @@
-base:
-  '*':
-    - httpd
-    - git
-    - xterm
