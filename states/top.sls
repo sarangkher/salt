@@ -1,6 +1,6 @@
 base:
 #'salt-minion':
-   '*':
+#   '*':
 #     'G@os:CentOS and G@kernel:Linux':
 #       - match: compound
 #       - git

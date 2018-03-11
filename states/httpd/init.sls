@@ -1,8 +1,8 @@
 install_httpd:
    pkg.installed:
-#    {% if grains['a'] == '1' %}
+{% if grains['os'] == 'CentOS' %}
       - name: httpd
-#    {% endif %}
+{% endif %}
 
    service.running:
       - name: httpd
